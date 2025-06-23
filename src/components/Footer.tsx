@@ -11,14 +11,26 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Logo and Links */}
           <div>
-            <Link href="/" className="text-2xl font-bold text-slate-800 mb-4 block">
-              InfiniaTrade
+            <Link href="/" className="flex items-center mb-4">
+              <div className="flex items-center space-x-2">
+                {/* Logo Icon */}
+                <div className="w-6 h-6 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                    <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+                {/* Logo Text */}
+                <div className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  InfiniaTrade
+                </div>
+              </div>
             </Link>
             <div className="space-y-2">
               <Link href="/support" className="block text-sm text-gray-600 hover:text-gray-900">
                 CONTACT US
               </Link>
-              <Link href="/reviews" className="block text-sm text-gray-600 hover:text-gray-900">
+              <Link href="/press" className="block text-sm text-gray-600 hover:text-gray-900">
                 PRESS
               </Link>
             </div>
