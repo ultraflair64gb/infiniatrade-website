@@ -23,7 +23,7 @@ export default function Home() {
             </p>
             <Link href="/register">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                Start Free Trial
+                Start 90-Day Free Trial - No Credit Card
               </Button>
             </Link>
             <p className="text-sm text-gray-400 mt-4">
@@ -185,7 +185,7 @@ export default function Home() {
           </div>
           <Link href="/register">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg">
-              Start Free Trial
+              Start 90-Day Free Trial - No Credit Card
             </Button>
           </Link>
           <p className="text-sm text-gray-300 mt-4">
@@ -297,7 +297,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link href="/register">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Start Free Trial - Access All Templates
+                Start 90-Day Free Trial - Access All Templates
               </Button>
             </Link>
           </div>

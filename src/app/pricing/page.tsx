@@ -104,7 +104,7 @@ export default function Pricing() {
                 <div className="text-center">
                   <Link href="/register">
                     <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-12 py-4 text-lg">
-                      Start Free Trial
+                      Start 90-Day Free Trial - No Credit Card
                     </Button>
                   </Link>
                   <p className="text-sm text-gray-600 mt-4">
@@ -226,7 +226,7 @@ export default function Pricing() {
           </p>
           <Link href="/register">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-12 py-4 text-lg">
-              Start Your 90-Day Free Trial
+              Start 90-Day Free Trial - No Credit Card
             </Button>
           </Link>
           <p className="text-sm text-gray-300 mt-4">

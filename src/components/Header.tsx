@@ -100,8 +100,8 @@ export function Header() {
               </Button>
             </Link>
             <Link href="/register">
-              <Button size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                Start Free Trial
+              <Button size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-xs">
+                Start 90-Day Free Trial
               </Button>
             </Link>
             <Link href="/login">
@@ -145,8 +145,8 @@ export function Header() {
               <div className="pt-4 pb-3 border-t border-gray-200">
                 <div className="flex flex-col space-y-2 px-3">
                   <Link href="/register">
-                    <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                      Start Free Trial
+                    <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-sm">
+                      Start 90-Day Free Trial
                     </Button>
                   </Link>
                   <Link href="/login">

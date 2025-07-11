@@ -96,7 +96,7 @@ export default function Register() {
                 </div>
 
                 <Button className="w-full bg-blue-600 hover:bg-blue-700" size="lg">
-                  Start Free Trial
+                  Start 90-Day Free Trial - No Credit Card
                 </Button>
               </div>
 

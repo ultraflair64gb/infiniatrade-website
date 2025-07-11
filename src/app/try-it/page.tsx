@@ -22,7 +22,7 @@ export default function TryIt() {
             </Button>
             <Link href="/register">
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-slate-900">
-                Start Free Trial
+                Start 90-Day Free Trial
               </Button>
             </Link>
           </div>
@@ -287,7 +287,7 @@ export default function TryIt() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/register">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                Open Live Account
+                Start 90-Day Free Trial - No Credit Card
               </Button>
             </Link>
             <Link href="/pricing">
