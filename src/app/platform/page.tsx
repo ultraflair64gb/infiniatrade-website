@@ -21,7 +21,7 @@ export default function Platform() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/register">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                    Start Trading Now
+                    Start 90-Day Free Trial
                   </Button>
                 </Link>
                 <Link href="/try-it">
@@ -181,7 +181,7 @@ export default function Platform() {
               <div className="mt-8">
                 <Link href="/register">
                   <Button size="lg">
-                    Explore All Tools
+                    Start 90-Day Free Trial
                   </Button>
                 </Link>
               </div>
@@ -313,7 +313,7 @@ export default function Platform() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/register">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                Start Trading Now
+                Start 90-Day Free Trial - No Credit Card
               </Button>
             </Link>
             <Link href="/try-it">

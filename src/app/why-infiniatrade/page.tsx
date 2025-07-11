@@ -16,7 +16,7 @@ export default function WhyInfiniaTrade() {
               </h1>
               <Link href="/register">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                  OPEN ACCOUNT
+                  START 90-DAY FREE TRIAL
                 </Button>
               </Link>
             </div>
@@ -112,7 +112,7 @@ export default function WhyInfiniaTrade() {
             <div className="flex justify-center lg:col-span-2">
               <Link href="/register">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                  OPEN ACCOUNT
+                  START 90-DAY FREE TRIAL
                 </Button>
               </Link>
             </div>

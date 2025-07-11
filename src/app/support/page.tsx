@@ -204,7 +204,7 @@ export default function Support() {
               <CardContent className="space-y-4">
                 <Link href="/register">
                   <Button className="w-full" size="lg">
-                    Open New Account
+                    Start 90-Day Free Trial
                   </Button>
                 </Link>
                 <Link href="/login">

@@ -262,7 +262,7 @@ export default function Margins() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/register">
                 <Button>
-                  Open Trading Account
+                  Start 90-Day Free Trial
                 </Button>
               </Link>
               <Button variant="outline">

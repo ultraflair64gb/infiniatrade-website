@@ -330,7 +330,7 @@ export default function FundingInstructions() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/support">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                Contact Support
+                Start 90-Day Free Trial
               </Button>
             </Link>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">

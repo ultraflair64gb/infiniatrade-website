@@ -309,7 +309,7 @@ export default function Devices() {
             </Link>
             <Link href="/register">
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
-                Open Trading Account
+                Start 90-Day Free Trial
               </Button>
             </Link>
           </div>

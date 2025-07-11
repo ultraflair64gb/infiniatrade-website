@@ -17,8 +17,8 @@ export default function TradingProducts() {
             and interest rates. From full-size to micro contracts.
           </p>
           <Link href="/register">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-              Start Trading Now
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              Start 90-Day Free Trial
             </Button>
           </Link>
         </div>
