@@ -33,9 +33,10 @@ export default function Register() {
         <div className="w-full max-w-md mx-auto">
           <Card className="shadow-2xl">
             <CardHeader className="text-center">
+              <CardTitle>
                 Start Your 90-Day Free Trial
-                Start Your Free Trial
               </CardTitle>
+              <p className="text-gray-600 mt-2">
                 Try our AI workflow automation software completely free for 90 days.
                 Get started in under 2 minutes
               </p>
@@ -117,15 +118,15 @@ export default function Register() {
 
           {/* Additional Info */}
           <div className="mt-8 text-center">
-                <h3 className="font-semibold mb-3">What You Get in Your Free Trial:</h3>
-              <h3 className="font-semibold mb-3">Why Choose InfiniaTrade?</h3>
-                  <li>✓ Automate tasks in 3 clicks or less</li>
-                  <li>✓ Process workflows 10x faster</li>
-                  <li>✓ Pre-built templates for common processes</li>
-                  <li>✓ Drag-and-drop interface (no coding)</li>
-                  <li>✓ Enterprise-grade security</li>
-                  <li>✓ Free onboarding support</li>
-                <li>✓ NFA regulated and secure</li>
+            <div className="text-white">
+              <h3 className="font-semibold mb-3">What You Get in Your Free Trial:</h3>
+              <ul className="text-left space-y-2 max-w-md mx-auto">
+                <li>✓ Automate tasks in 3 clicks or less</li>
+                <li>✓ Process workflows 10x faster</li>
+                <li>✓ Pre-built templates for common processes</li>
+                <li>✓ Drag-and-drop interface (no coding)</li>
+                <li>✓ Enterprise-grade security</li>
+                <li>✓ Free onboarding support</li>
               </ul>
             </div>
           </div>
