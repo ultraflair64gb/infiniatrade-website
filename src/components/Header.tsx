@@ -77,8 +77,8 @@ export function Header() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <Link href="/pricing" className="font-medium">
-                    Pricing
+                  <Link href="/try-it" className="font-medium">
+                    Try Free Demo
                   </Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
@@ -101,7 +101,7 @@ export function Header() {
             </Link>
             <Link href="/register">
               <Button size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                Open Account
+                Start Free Trial
               </Button>
             </Link>
             <Link href="/login">
@@ -133,8 +133,8 @@ export function Header() {
               <Link href="/trading-products" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md">
                 Trading
               </Link>
-              <Link href="/pricing" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md">
-                Pricing
+              <Link href="/try-it" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md">
+                Try Free Demo
               </Link>
               <Link href="/why-infiniatrade" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md">
                 Why InfiniaTrade
@@ -146,7 +146,7 @@ export function Header() {
                 <div className="flex flex-col space-y-2 px-3">
                   <Link href="/register">
                     <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                      Open Account
+                      Start Free Trial
                     </Button>
                   </Link>
                   <Link href="/login">

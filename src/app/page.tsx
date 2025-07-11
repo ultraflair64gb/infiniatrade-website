@@ -12,97 +12,138 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Trade Futures With InfiniaTrade Today
+              Try Our AI Workflow Automation Software Free for 90 Days
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto">
-              Simple Yet Powerful Futures Trading Tools
+              Automate Your Repetitive Tasks in 3 Clicks or Less
             </p>
             <p className="text-lg mb-10 text-gray-400 max-w-3xl mx-auto">
-              InfiniaTrade brings innovation to future trading by building our platform from the ground up for speed and multi-device trading using technology designed for active futures traders. You can trade from anywhere on Any device - Both PC and Mac Compatible.
+              Process documents, data, and workflows up to 10x faster with our drag-and-drop interface. 
+              No coding required, enterprise-grade security, and seamless integration with your existing tools.
             </p>
             <Link href="/register">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                Open Account
+                Start Free Trial
               </Button>
             </Link>
+            <p className="text-sm text-gray-400 mt-4">
+              No credit card needed • Full access to all premium features • Cancel anytime
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Why Choose InfiniaTrade Section */}
+      {/* Free Trial Benefits */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose InfiniaTrade?
+              Why Choose InfiniaTrade Automation?
             </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Start your no-risk trial today and experience the power of intelligent automation
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <CardTitle className="text-lg">Trade Anywhere - From Any Device</CardTitle>
+                <CardTitle className="text-lg">Automate in 3 Clicks</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Full access to all versions of InfiniaTrade's cloud-based platform to trade on all of your devices: Desktop, mobile & tablet - Mac & PC Compatible.
+                  ✓ Automate your repetitive tasks in 3 clicks or less with our intuitive interface
                 </CardDescription>
               </CardContent>
             </Card>
 
             {/* Feature 2 */}
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <CardTitle className="text-lg">40+ Advanced Trading Tools</CardTitle>
+                <CardTitle className="text-lg">10x Faster Processing</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Designed specifically for futures traders, this suite of tools was built for the modern markets. Identify and execute your next trade with advanced InfiniaTrade tools.
+                  ✓ Process documents, data, and workflows up to 10x faster than manual methods
                 </CardDescription>
               </CardContent>
             </Card>
 
             {/* Feature 3 */}
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                   </svg>
                 </div>
-                <CardTitle className="text-lg">Transparent Pricing - No Hidden Fees</CardTitle>
+                <CardTitle className="text-lg">Pre-built Templates</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  3 different plans designed for the way you trade.
+                  ✓ Pre-built templates for common business processes to get you started instantly
                 </CardDescription>
               </CardContent>
             </Card>
 
             {/* Feature 4 */}
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17v4a2 2 0 002 2h4M13 13h4a2 2 0 012 2v4a2 2 0 01-2 2h-4m-6-4a2 2 0 01-2-2V9a2 2 0 012-2h2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v2m-6 4h6" />
                   </svg>
                 </div>
-                <CardTitle className="text-lg">Safe & Secure</CardTitle>
+                <CardTitle className="text-lg">No Coding Required</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Cloud based trading system with latest 2FA security for your account and NFA regulated.
+                  ✓ Drag-and-drop interface - no coding required, perfect for any skill level
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Feature 5 */}
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <CardTitle className="text-lg">Enterprise Security</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>
+                  ✓ Secure cloud storage with enterprise-grade encryption to protect your data
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Feature 6 */}
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a1 1 0 01-1-1V9a1 1 0 011-1h1a2 2 0 100-4H4a1 1 0 01-1-1V4a1 1 0 011-1h3a1 1 0 011 1v1z" />
+                  </svg>
+                </div>
+                <CardTitle className="text-lg">Seamless Integration</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>
+                  ✓ Seamless integration with your existing tools and workflows
                 </CardDescription>
               </CardContent>
             </Card>
@@ -110,154 +151,155 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Platform Preview CTA */}
-      <section className="py-16 bg-gray-50">
+      {/* Free Trial CTA */}
+      <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Get an Instant Platform Preview
+          <h2 className="text-3xl font-bold mb-6">
+            Start Your No-Risk Trial Today
           </h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Experience cloud-based futures trading for FREE. Take a look at the tools and analytics that InfiniaTrade offers with live real-time futures data.
-          </p>
-          <Link href="/try-it">
-            <Button size="lg" variant="outline" className="px-8 py-3 text-lg">
-              TRY IT NOW
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div className="flex items-center justify-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+              <span>No credit card needed</span>
+            </div>
+            <div className="flex items-center justify-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+              <span>Full access to all premium features</span>
+            </div>
+            <div className="flex items-center justify-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+              <span>Free onboarding support</span>
+            </div>
+            <div className="flex items-center justify-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+              <span>Cancel anytime</span>
+            </div>
+          </div>
+          <Link href="/register">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg">
+              Start Free Trial
             </Button>
           </Link>
+          <p className="text-sm text-gray-300 mt-4">
+            Click "Start Free Trial" to begin streamlining your workflow immediately.
+          </p>
         </div>
       </section>
 
-      {/* Pricing Plans Section */}
-      <section className="py-20 bg-white">
+      {/* Platform Preview */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Choose a Pricing Plan that Fits Your Trading Style
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              See InfiniaTrade Automation in Action
             </h2>
-            <p className="text-lg text-gray-600">
-              Trade with no commitment per side pricing or upgrade at any time to potentially lower your trading costs further
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Experience our intuitive drag-and-drop interface and see how easy it is to automate your workflows
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Free Plan */}
-            <Card className="border-2">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">Free</CardTitle>
-                <CardDescription>No commitment, pay a commission only when you trade</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.39</div>
-                  <div className="text-sm text-gray-600">Micros</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$1.29</div>
-                  <div className="text-sm text-gray-600">Standard</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.20</div>
-                  <div className="text-sm text-gray-600">Nano & Event Contracts</div>
-                </div>
-                <div className="text-center text-sm text-gray-600">Commission per side</div>
-                <div className="text-center font-semibold text-green-600">No Monthly Fee</div>
-                <Button className="w-full" variant="outline">
-                  Learn More
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Monthly Plan */}
-            <Card className="border-2 border-blue-500 relative">
-              <Badge className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-500">
-                Popular
-              </Badge>
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">Monthly</CardTitle>
-                <CardDescription>Reduce your per trade commissions</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.29</div>
-                  <div className="text-sm text-gray-600">Micros</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.99</div>
-                  <div className="text-sm text-gray-600">Standard</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.15</div>
-                  <div className="text-sm text-gray-600">Nano & Event Contracts</div>
-                </div>
-                <div className="text-center text-sm text-gray-600">Commission per side</div>
-                <div className="text-center font-semibold text-blue-600">$99/month</div>
-                <Button className="w-full">
-                  Learn More
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Lifetime Plan */}
-            <Card className="border-2">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">Lifetime</CardTitle>
-                <CardDescription>Lowest commissions</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.09</div>
-                  <div className="text-sm text-gray-600">Micros</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.59</div>
-                  <div className="text-sm text-gray-600">Standard</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$0.05</div>
-                  <div className="text-sm text-gray-600">Nano & Event Contracts</div>
-                </div>
-                <div className="text-center font-semibold text-purple-600">$1,499 one-time payment</div>
-                <Button className="w-full" variant="outline">
-                  Learn More
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* All Plans Include */}
-          <div className="mt-16">
-            <h3 className="text-2xl font-bold text-center mb-8">All plans include access to advanced tools</h3>
-            <p className="text-center text-gray-600 mb-8">
-              Every plan also includes access to the following tools, so you can fully customize the way you trade futures:
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
               <div className="text-center">
-                <h4 className="font-semibold mb-2">Powerful charts</h4>
-                <p className="text-sm text-gray-600">Advanced yet easy-to-use charting tools</p>
-              </div>
-              <div className="text-center">
-                <h4 className="font-semibold mb-2">Third-party tools integration</h4>
-                <p className="text-sm text-gray-600">Connect with your favorite trading tools</p>
-              </div>
-              <div className="text-center">
-                <h4 className="font-semibold mb-2">Free simulated trading</h4>
-                <p className="text-sm text-gray-600">Test strategies risk-free</p>
-              </div>
-              <div className="text-center">
-                <h4 className="font-semibold mb-2">Customer support</h4>
-                <p className="text-sm text-gray-600">24x5 technical support</p>
+                <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h8m2-10h.01M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Interactive Platform Demo</h3>
+                <p className="text-gray-600">Workflow automation interface preview</p>
               </div>
             </div>
           </div>
 
+          <div className="text-center">
+            <Link href="/try-it">
+              <Button size="lg" variant="outline" className="px-8 py-3 text-lg">
+                Try Interactive Demo
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Workflow Templates */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Pre-Built Templates for Common Business Processes
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Get started instantly with our library of proven automation templates
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Document Processing",
+                description: "Automatically extract, process, and organize documents",
+                icon: "📄",
+                processes: "Invoice processing, Contract analysis, Data extraction"
+              },
+              {
+                title: "Data Management",
+                description: "Clean, transform, and sync data across systems",
+                icon: "📊",
+                processes: "Data validation, Report generation, Database sync"
+              },
+              {
+                title: "Email Automation",
+                description: "Automate email workflows and responses",
+                icon: "📧",
+                processes: "Lead nurturing, Customer support, Follow-ups"
+              },
+              {
+                title: "Financial Workflows",
+                description: "Streamline accounting and financial processes",
+                icon: "💰",
+                processes: "Expense tracking, Budget analysis, Payment processing"
+              },
+              {
+                title: "Customer Service",
+                description: "Automate customer support and communication",
+                icon: "🎧",
+                processes: "Ticket routing, Response automation, Escalation"
+              },
+              {
+                title: "Marketing Automation",
+                description: "Automate marketing campaigns and lead management",
+                icon: "📈",
+                processes: "Campaign management, Lead scoring, Social media"
+              }
+            ].map((template, index) => (
+              <Card key={index} className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="text-4xl mb-4">{template.icon}</div>
+                  <CardTitle className="text-lg">{template.title}</CardTitle>
+                  <CardDescription>{template.description}</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-gray-600">{template.processes}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
           <div className="text-center mt-12">
-            <p className="text-lg font-semibold text-gray-900 mb-2">
-              ALL INFINIATRADE PLATFORMS INCLUDED WITH NO LICENCE FEES
-            </p>
-            <p className="text-sm text-gray-600">
-              Exchange, clearing, and NFA fees still apply.
-            </p>
+            <Link href="/register">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                Start Free Trial - Access All Templates
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

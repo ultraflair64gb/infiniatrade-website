@@ -11,247 +11,227 @@ export default function Pricing() {
       <section className="bg-gradient-to-r from-slate-900 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Choose Your Trading Plan
+            Start Your 90-Day Free Trial
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Transparent pricing designed for traders. No hidden fees, no surprises.
-            Choose the plan that fits your trading style and volume.
+            No credit card required. Full access to all premium features.
+            Experience the power of intelligent automation risk-free.
           </p>
         </div>
       </section>
 
-      {/* Pricing Plans */}
+      {/* Free Trial Offer */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            {/* Free Plan */}
-            <Card className="border-2 hover:shadow-lg transition-shadow">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">Free</CardTitle>
-                <CardDescription>Perfect for getting started</CardDescription>
-                <div className="mt-4">
-                  <div className="text-4xl font-bold text-blue-600">$0</div>
-                  <div className="text-sm text-gray-600">Monthly fee</div>
-                </div>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="space-y-3">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">$0.39</div>
-                    <div className="text-sm text-gray-600">Micro contracts</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">$1.29</div>
-                    <div className="text-sm text-gray-600">Standard contracts</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">$0.20</div>
-                    <div className="text-sm text-gray-600">Nano & Event contracts</div>
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">Commission per side</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">No monthly commitment</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">All platform features</span>
-                  </div>
-                </div>
-
-                <Link href="/register">
-                  <Button className="w-full" variant="outline">
-                    Get Started Free
-                  </Button>
-                </Link>
-              </CardContent>
-            </Card>
-
-            {/* Monthly Plan */}
+          <div className="max-w-4xl mx-auto">
             <Card className="border-2 border-blue-500 relative hover:shadow-lg transition-shadow">
-              <Badge className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-500">
-                Most Popular
+              <Badge className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-500 text-lg px-4 py-1">
+                90-Day Free Trial
               </Badge>
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">Monthly</CardTitle>
-                <CardDescription>Best for active traders</CardDescription>
-                <div className="mt-4">
-                  <div className="text-4xl font-bold text-blue-600">$99</div>
-                  <div className="text-sm text-gray-600">Per month</div>
+              <CardHeader className="text-center pt-8">
+                <CardTitle className="text-3xl font-bold">Complete Access</CardTitle>
+                <CardDescription className="text-lg">
+                  Try our AI workflow automation software completely free
+                </CardDescription>
+                <div className="mt-6">
+                  <div className="text-5xl font-bold text-blue-600">FREE</div>
+                  <div className="text-lg text-gray-600">for 90 days</div>
                 </div>
               </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="space-y-3">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">$0.29</div>
-                    <div className="text-sm text-gray-600">Micro contracts</div>
+              <CardContent className="space-y-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="space-y-4">
+                    <h3 className="font-semibold text-lg">What's Included:</h3>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-green-600" />
+                        <span>Automate repetitive tasks in 3 clicks or less</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-green-600" />
+                        <span>Process documents 10x faster</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-green-600" />
+                        <span>Pre-built templates for common processes</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-green-600" />
+                        <span>Drag-and-drop interface (no coding)</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-green-600" />
+                        <span>Enterprise-grade security</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-green-600" />
+                        <span>Seamless tool integration</span>
+                      </div>
+                    </div>
                   </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">$0.99</div>
-                    <div className="text-sm text-gray-600">Standard contracts</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">$0.15</div>
-                    <div className="text-sm text-gray-600">Nano & Event contracts</div>
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">Reduced commission rates</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">All platform features</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">Priority support</span>
-                  </div>
-                </div>
-
-                <Link href="/register">
-                  <Button className="w-full">
-                    Start Monthly Plan
-                  </Button>
-                </Link>
-              </CardContent>
-            </Card>
-
-            {/* Lifetime Plan */}
-            <Card className="border-2 hover:shadow-lg transition-shadow">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold">Lifetime</CardTitle>
-                <CardDescription>Lowest possible rates</CardDescription>
-                <div className="mt-4">
-                  <div className="text-4xl font-bold text-purple-600">$1,499</div>
-                  <div className="text-sm text-gray-600">One-time payment</div>
-                </div>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="space-y-3">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-purple-600">$0.09</div>
-                    <div className="text-sm text-gray-600">Micro contracts</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-purple-600">$0.59</div>
-                    <div className="text-sm text-gray-600">Standard contracts</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-purple-600">$0.05</div>
-                    <div className="text-sm text-gray-600">Nano & Event contracts</div>
+                  
+                  <div className="space-y-4">
+                    <h3 className="font-semibold text-lg">Trial Benefits:</h3>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-blue-600" />
+                        <span>No credit card needed</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-blue-600" />
+                        <span>Full access to all premium features</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-blue-600" />
+                        <span>Free onboarding support</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-blue-600" />
+                        <span>Cancel anytime</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-blue-600" />
+                        <span>24/7 customer support</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <Check className="w-5 h-5 text-blue-600" />
+                        <span>No setup fees or hidden costs</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">Lowest commission rates</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">Lifetime access</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-green-600" />
-                    <span className="text-sm">VIP support</span>
-                  </div>
+                <div className="text-center">
+                  <Link href="/register">
+                    <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-12 py-4 text-lg">
+                      Start Free Trial
+                    </Button>
+                  </Link>
+                  <p className="text-sm text-gray-600 mt-4">
+                    Click "Start Free Trial" to begin streamlining your workflow immediately.
+                  </p>
                 </div>
-
-                <Link href="/register">
-                  <Button className="w-full" variant="outline">
-                    Get Lifetime Access
-                  </Button>
-                </Link>
               </CardContent>
             </Card>
           </div>
+        </div>
+      </section>
 
-          {/* Features Comparison */}
-          <div className="mt-20">
-            <h2 className="text-3xl font-bold text-center mb-12">All Plans Include</h2>
+      {/* How It Works */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              How Your Free Trial Works
+            </h2>
+            <p className="text-lg text-gray-600">
+              Get started in minutes with our simple 3-step process
+            </p>
+          </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[
-                {
-                  title: "Advanced Charting",
-                  description: "Professional-grade charts with 100+ technical indicators"
-                },
-                {
-                  title: "Multi-Device Access",
-                  description: "Trade from desktop, mobile, tablet - Mac & PC compatible"
-                },
-                {
-                  title: "Real-Time Data",
-                  description: "Live market data and news feeds"
-                },
-                {
-                  title: "Risk Management",
-                  description: "Advanced order types and risk controls"
-                },
-                {
-                  title: "Third-Party Integration",
-                  description: "Connect with TradingView and other platforms"
-                },
-                {
-                  title: "Paper Trading",
-                  description: "Practice with unlimited simulated trading"
-                },
-                {
-                  title: "Market Research",
-                  description: "Daily market analysis and research reports"
-                },
-                {
-                  title: "Customer Support",
-                  description: "24x5 technical support and trade desk"
-                },
-                {
-                  title: "Educational Resources",
-                  description: "Videos, webinars, and trading guides"
-                }
-              ].map((feature, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">{feature.title}</h3>
-                    <p className="text-sm text-gray-600">{feature.description}</p>
-                  </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-blue-600">1</span>
                 </div>
-              ))}
-            </div>
+                <CardTitle>Sign Up</CardTitle>
+                <CardDescription>
+                  Create your free account in under 2 minutes. No credit card required.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-green-600">2</span>
+                </div>
+                <CardTitle>Explore & Automate</CardTitle>
+                <CardDescription>
+                  Use pre-built templates or create custom workflows with our drag-and-drop interface.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-purple-600">3</span>
+                </div>
+                <CardTitle>See Results</CardTitle>
+                <CardDescription>
+                  Watch your productivity soar as workflows run automatically in the background.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Frequently Asked Questions
+            </h2>
           </div>
 
-          {/* Additional Info */}
-          <div className="mt-20 text-center">
-            <div className="bg-gray-50 rounded-lg p-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                ALL INFINIATRADE PLATFORMS INCLUDED WITH NO LICENSE FEES
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Exchange, clearing, and NFA fees still apply. No setup fees, no data fees, no platform fees.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/register">
-                  <Button size="lg">
-                    Start Trading Today
-                  </Button>
-                </Link>
-                <Link href="/try-it">
-                  <Button variant="outline" size="lg">
-                    Try Platform Demo
-                  </Button>
-                </Link>
-              </div>
-            </div>
+          <div className="space-y-8">
+            {[
+              {
+                question: "Do I really need to provide a credit card?",
+                answer: "No! Our 90-day free trial requires no credit card. You can explore all features completely risk-free."
+              },
+              {
+                question: "What happens after the 90-day trial?",
+                answer: "You can choose to continue with a paid plan or cancel anytime. We'll notify you before your trial ends."
+              },
+              {
+                question: "Can I cancel anytime during the trial?",
+                answer: "Absolutely! You can cancel your trial at any time with no questions asked and no fees."
+              },
+              {
+                question: "Is there a limit to what I can automate during the trial?",
+                answer: "No limits! You get full access to all premium features, templates, and automation capabilities."
+              },
+              {
+                question: "Do you provide support during the free trial?",
+                answer: "Yes! You get free onboarding support and 24/7 customer service throughout your entire trial period."
+              }
+            ].map((faq, index) => (
+              <Card key={index}>
+                <CardHeader>
+                  <CardTitle className="text-lg">{faq.question}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-600">{faq.answer}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20 bg-blue-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Ready to Transform Your Workflow?
+          </h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Join thousands of businesses already saving time and increasing productivity 
+            with InfiniaTrade automation.
+          </p>
+          <Link href="/register">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-12 py-4 text-lg">
+              Start Your 90-Day Free Trial
+            </Button>
+          </Link>
+          <p className="text-sm text-gray-300 mt-4">
+            No credit card • No risk • Cancel anytime
+          </p>
         </div>
       </section>
     </div>

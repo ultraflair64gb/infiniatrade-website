@@ -10,11 +10,11 @@ export default function TryIt() {
       <section className="bg-gradient-to-r from-slate-900 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Experience InfiniaTrade Platform Live
+            Try Our AI Workflow Automation Free
           </h1>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto mb-8">
-            Try our advanced futures trading platform with real-time market data.
-            No registration required - explore all features risk-free.
+            Experience our drag-and-drop automation platform with live demo.
+            No registration required - see how easy workflow automation can be.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
@@ -22,7 +22,7 @@ export default function TryIt() {
             </Button>
             <Link href="/register">
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-slate-900">
-                Open Real Account
+                Start Free Trial
               </Button>
             </Link>
           </div>
@@ -34,11 +34,11 @@ export default function TryIt() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Full Platform Access - No Limitations
+              Interactive Demo - No Limitations
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Experience every feature of our professional trading platform with live market data.
-              This is the exact same platform our customers use for real trading.
+              Experience every feature of our automation platform with interactive examples.
+              This is the exact same interface our customers use for workflow automation.
             </p>
           </div>
 
@@ -48,11 +48,11 @@ export default function TryIt() {
               <div className="text-center text-white">
                 <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Interactive Trading Platform</h3>
-                <p className="text-gray-400 mb-4">Click the button below to launch the full demo</p>
+                <h3 className="text-xl font-semibold mb-2">Interactive Automation Platform</h3>
+                <p className="text-gray-400 mb-4">Click the button below to launch the workflow demo</p>
                 <Button className="bg-blue-600 hover:bg-blue-700">
                   Launch Platform Demo
                 </Button>
@@ -61,16 +61,16 @@ export default function TryIt() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-white text-sm">
               <div className="bg-gray-800/50 rounded p-3">
-                <div className="font-semibold text-green-400">Live Market Data</div>
-                <div className="text-gray-300">Real-time futures prices</div>
+                <div className="font-semibold text-green-400">Live Demo Data</div>
+                <div className="text-gray-300">Interactive examples</div>
               </div>
               <div className="bg-gray-800/50 rounded p-3">
                 <div className="font-semibold text-blue-400">Full Feature Access</div>
-                <div className="text-gray-300">All tools & indicators</div>
+                <div className="text-gray-300">All automation tools</div>
               </div>
               <div className="bg-gray-800/50 rounded p-3">
-                <div className="font-semibold text-purple-400">Simulated Trading</div>
-                <div className="text-gray-300">Practice with virtual funds</div>
+                <div className="font-semibold text-purple-400">Template Library</div>
+                <div className="text-gray-300">Pre-built workflows</div>
               </div>
             </div>
           </div>

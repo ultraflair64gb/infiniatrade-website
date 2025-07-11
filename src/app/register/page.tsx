@@ -33,11 +33,11 @@ export default function Register() {
         <div className="w-full max-w-md mx-auto">
           <Card className="shadow-2xl">
             <CardHeader className="text-center">
-              <CardTitle className="text-2xl font-bold text-gray-900">
-                Open Your Trading Account
+                Start Your 90-Day Free Trial
+                Start Your Free Trial
               </CardTitle>
-              <p className="text-gray-600 mt-2">
-                Start trading futures in minutes
+                Try our AI workflow automation software completely free for 90 days.
+                Get started in under 2 minutes
               </p>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -95,14 +95,14 @@ export default function Register() {
                 </div>
 
                 <Button className="w-full bg-blue-600 hover:bg-blue-700" size="lg">
-                  Sign Up
+                  Start Free Trial
                 </Button>
               </div>
 
               {/* Terms and Conditions */}
               <div className="text-center">
                 <p className="text-xs text-gray-600">
-                  By signing up, you agree to our{" "}
+                  By starting your trial, you agree to our{" "}
                   <Link href="/terms" className="text-blue-600 hover:text-blue-700 underline">
                     Terms of Service
                   </Link>{" "}
@@ -117,13 +117,14 @@ export default function Register() {
 
           {/* Additional Info */}
           <div className="mt-8 text-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-white">
+                <h3 className="font-semibold mb-3">What You Get in Your Free Trial:</h3>
               <h3 className="font-semibold mb-3">Why Choose InfiniaTrade?</h3>
-              <ul className="text-sm space-y-2 text-gray-300">
-                <li>✓ Advanced trading tools and analytics</li>
-                <li>✓ Competitive pricing with transparent fees</li>
-                <li>✓ 24/5 professional support</li>
-                <li>✓ Multi-device cloud-based platform</li>
+                  <li>✓ Automate tasks in 3 clicks or less</li>
+                  <li>✓ Process workflows 10x faster</li>
+                  <li>✓ Pre-built templates for common processes</li>
+                  <li>✓ Drag-and-drop interface (no coding)</li>
+                  <li>✓ Enterprise-grade security</li>
+                  <li>✓ Free onboarding support</li>
                 <li>✓ NFA regulated and secure</li>
               </ul>
             </div>
